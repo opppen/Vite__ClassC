@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
+
+* {
+  /* font-family: 'Noto Sans TC', sans-serif; */
+  box-sizing: border-box;
+  /* outline: 1px solid red; */
+}
+
+#app {
+  width: 1024px;
+  height: 768px;
+  margin: auto;
+  outline: 1px solid blue;
+}
+
+/* -------------------- */
+/* TopImg */
+/* -------------------- */
+#top-image {
+  width: 100%;
+  height: 65px;
+}
+
+/* -------------------- */
+/* main */
+/* -------------------- */
+#center {
+  width: 100%;
+  height: calc(768px - 65px - 20px);
+  /* margin: auto; */
+}
+
+#left {
+  width: 215px;
+  height: 100%;
+  display: inline-block;
+  position: relative;
+}
+
+#right {
+  width: 770px;
+  height: 100%;
+  display: inline-block;
+  position: relative;
+}
+
+/* -------------------- */
+/* LeftMenu*/
+/* -------------------- */
+#left-menu {
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  color: #000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: calc(100% - 25px);
+}
+
+#left-menu h1 {
+  font-size: 24px;
+  color: #f0f;
+  border-bottom: 1px solid black;
+  display: inline-block;
+}
+
+#left-menu table {
+  width: 100%;
+  height: 35px;
+}
+
+#left-menu tr {
+  background-image: url(../assets/menu1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#left-menu tr:hover {
+  background-image: url(../assets/menu2.png);
+}
+
+/* -------------------- */
+/* LeftUpdate */
+/* -------------------- */
+#left-update {
+  width: 100%;
+  height: 25px;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+}
+
+/* -------------------- */
+/* RightMarquee */
+/* -------------------- */
+#right-marquee {
+  width: 100%;
+  height: 29px;
+  position: absolute;
+  top: 0;
+  color: blue;
+  font-size: 24px;
+}
+
+
+/* -------------------- */
+/* right-main */
+/* -------------------- */
+#right-main {
+  width: 100%;
+  height: calc(100% - 29px);
+  position: absolute;
+  bottom: 0;
+  color: blue;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: bold;
+  text-align:  center;
+  background-image: url(../assets/0101.jpg);
+  /* background-position: center center; */
+}
+
+/* -------------------- */
+/* footer-name */
+/* -------------------- */
+#footer-name {
+  text-align: center;
+  /* outline: 1px solid red; */
+}
